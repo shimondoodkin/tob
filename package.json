@@ -1,0 +1,18 @@
+{
+  "author": "Shimon Doodkin <helpmepro1@gmail.com> (http://doodkin.com)",
+  "name": "tob",
+  "description": "Template Observer.  Enables self reloading templates on modification. Can work with many template engines.",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shimondoodkin/tob.git"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">0.3.0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
