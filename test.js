@@ -27,7 +27,7 @@ var simple_te={ // a simple template engine, returns a function, from underscore
 };
 
 
-var template=require('./index.js').template;
+var template=require('./index.js');
 
 var fs=require('fs');
 template.load=function(filename,callback)

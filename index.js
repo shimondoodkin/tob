@@ -203,4 +203,4 @@ tObserver.prototype={
 //}
 
 //this=tObserver;
-exports.template=tObserver;
+module.exports=tObserver;
