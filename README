@@ -1,0 +1,24 @@
+# Template Observer
+
+This thing enables you to have self-reloading or 'managed' templates.
+
+It watches for change in a template file, and then it executes the load 
+method of the template on that file again.
+
+it does like a proxy action for the privetly saved template function.
+when the template regenerated it replaceces the privet function.
+and no referenced are required to be updated in the running program
+
+in the load method of the template observer.
+you encapsulate generation and parsing of the template and return
+the function of a the template
+
+a usual temlpate engine is a program that reads a file, parses it by its own way and returns a 
+javascript function, to be called as a temlplate. 
+
+to see an example see test.js
+
+
+By Shimon Doodkin
+
+feel free to copy this idea and code into your temlpate engines.
